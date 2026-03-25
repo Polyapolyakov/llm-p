@@ -5,7 +5,6 @@ from app.core.errors import ExternalServiceError
 from app.schemas import chat as chat_schemas
 from app.api import deps
 from app.usecases.chat import ChatUseCase
-from app.db.models import ChatMessage
 
 router = APIRouter(prefix="/chat", tags=["Chat"])
 

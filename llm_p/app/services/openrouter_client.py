@@ -1,5 +1,5 @@
 import httpx
-from typing import List, Dict, Any
+from typing import List, Dict
 
 from app.core.config import settings
 from app.core.errors import ExternalServiceError
